@@ -9,23 +9,24 @@
 
         <key>DNSSettings</key>
         <dict>
-
-          <!-- DoH -->
           <key>DNSProtocol</key>
           <string>HTTPS</string>
 
-          <!-- NextDNS riêng của bạn -->
+          <key>ServerAddresses</key>
+          <array>
+            <string>45.90.28.0</string>
+            <string>45.90.30.0</string>
+            <string>2a07:a8c0::</string>
+            <string>2a07:a8c1::</string>
+          </array>
+
+          <key>ServerName</key>
+          <string>782aa4.dns.nextdns.io</string>
+
           <key>ServerURL</key>
           <string>https://dns.nextdns.io/782aa4</string>
 
-          <!-- Fallback tránh lỗi mạng -->
-          <key>ServerAddresses</key>
-          <array>
-            <string>1.1.1.1</string>
-            <string>8.8.8.8</string>
-          </array>
-
-          <!-- CHỈ áp dụng cho Locket -->
+          <!-- 🔥 CHỈ áp dụng cho Locket -->
           <key>SupplementalMatchDomains</key>
           <array>
             <string>api.revenuecat.com</string>
@@ -34,19 +35,28 @@
 
         </dict>
 
+        <!-- Auto bật -->
+        <key>OnDemandRules</key>
+        <array>
+          <dict>
+            <key>Action</key>
+            <string>Connect</string>
+          </dict>
+        </array>
+
         <key>PayloadType</key>
         <string>com.apple.dnsSettings.managed</string>
         <key>PayloadIdentifier</key>
-        <string>locket.nextdns.pro</string>
+        <string>locket.gold.noblock</string>
         <key>PayloadUUID</key>
-        <string>LOCKET-NEXTDNS-001</string>
+        <string>LOCKET-NOBLOCK-001</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
 
         <key>PayloadDisplayName</key>
-        <string>Locket DNS Pro</string>
+        <string>Locket Gold DNS (No Block)</string>
         <key>PayloadDescription</key>
-        <string>NextDNS optimized for Locket</string>
+        <string>Locket only - no web blocking</string>
 
       </dict>
     </array>
@@ -54,14 +64,14 @@
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadIdentifier</key>
-    <string>locket.nextdns.profile</string>
+    <string>locket.gold.noblock.profile</string>
     <key>PayloadUUID</key>
-    <string>LOCKET-NEXTDNS-PROFILE</string>
+    <string>LOCKET-NOBLOCK-PROFILE</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
 
     <key>PayloadDisplayName</key>
-    <string>Locket NextDNS</string>
+    <string>Locket DNS Clean</string>
 
   </dict>
 </plist>
