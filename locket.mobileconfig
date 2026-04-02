@@ -7,14 +7,17 @@
     <array>
       <dict>
 
+        <key>PayloadDisplayName</key>
+        <string>Locket DNS Config</string>
+
+        <key>PayloadOrganization</key>
+        <string>Personal DNS</string>
+
         <key>DNSSettings</key>
         <dict>
-
-          <!-- DoH tối ưu cho A16 -->
           <key>DNSProtocol</key>
           <string>HTTPS</string>
 
-          <!-- Dual server tối ưu đa mạng VN + quốc tế -->
           <key>ServerAddresses</key>
           <array>
             <string>45.90.28.0</string>
@@ -27,20 +30,15 @@
           <key>ServerURL</key>
           <string>https://dns.nextdns.io/782aa4</string>
 
-          <!-- Chỉ kích hoạt cho Locket -->
           <key>SupplementalMatchDomains</key>
           <array>
             <string>api.revenuecat.com</string>
             <string>api.locketcamera.com</string>
           </array>
-
         </dict>
 
-        <!-- SMART AUTO (tối ưu pin + tốc độ) -->
         <key>OnDemandRules</key>
         <array>
-
-          <!-- Trigger khi cần (Locket) -->
           <dict>
             <key>Action</key>
             <string>Connect</string>
@@ -51,12 +49,10 @@
             </array>
           </dict>
 
-          <!-- Fallback tắt hoàn toàn -->
           <dict>
             <key>Action</key>
             <string>Disconnect</string>
           </dict>
-
         </array>
 
         <key>PayloadType</key>
@@ -64,14 +60,9 @@
         <key>PayloadIdentifier</key>
         <string>locket.ultimate.stable</string>
         <key>PayloadUUID</key>
-        <string>LOCKET-ULTIMATE-001</string>
+        <string>F3A1B2C4-D5E6-47F8-9A0B-1C2D3E4F5A01</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
-
-        <key>PayloadDisplayName</key>
-        <string>Locket Ultimate Stable</string>
-        <key>PayloadDescription</key>
-        <string>Max performance, low battery, stable Locket Gold</string>
 
       </dict>
     </array>
@@ -81,7 +72,7 @@
     <key>PayloadIdentifier</key>
     <string>locket.ultimate.profile</string>
     <key>PayloadUUID</key>
-    <string>LOCKET-ULTIMATE-PROFILE</string>
+    <string>F3A1B2C4-D5E6-47F8-9A0B-1C2D3E4F5A02</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
 
