@@ -45,15 +45,14 @@
         <key>DNSProtocol</key>
         <string>HTTPS</string>
 
-        <!-- Cloudflare DNS (1.1.1.1 / 1.1.0.1) -->
+        <!-- Cloudflare -->
         <key>ServerURL</key>
         <string>https://cloudflare-dns.com/dns-query</string>
       </dict>
 
-      <!-- giữ nguyên -->
+      <!-- 🔥 FIX: bỏ revenuecat -->
       <key>SupplementalMatchDomains</key>
       <array>
-        <string>api.revenuecat.com</string>
       </array>
 
     </dict>
