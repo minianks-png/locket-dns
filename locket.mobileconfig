@@ -9,21 +9,17 @@
   <key>PayloadVersion</key>
   <integer>1</integer>
 
-  <!-- giảm fingerprint -->
   <key>PayloadIdentifier</key>
-  <string>com.apple.dns.secure</string>
+  <string>dns.secure.revenuecat.profile</string>
 
   <key>PayloadUUID</key>
-  <string>7E2A91F0-5B8C-4D1E-9A77-ACB123456789</string>
+  <string>F3A9C1B2-7D4E-4F9A-8C2B-1E3D5A6B7C8D</string>
 
   <key>PayloadDisplayName</key>
-  <string>Secure DNS</string>
+  <string>Secure DNS Profile</string>
 
   <key>PayloadOrganization</key>
-  <string>System</string>
-
-  <key>PayloadDescription</key>
-  <string>Private DNS - Minimal & Battery Optimized</string>
+  <string>Private User</string>
 
   <key>PayloadScope</key>
   <string>System</string>
@@ -39,32 +35,32 @@
       <integer>1</integer>
 
       <key>PayloadIdentifier</key>
-      <string>com.apple.dns.secure.routing</string>
+      <string>dns.secure.revenuecat</string>
 
       <key>PayloadUUID</key>
-      <string>3F1B2C4D-5678-49AB-BCDE-112233445566</string>
+      <string>9D2E4A6B-8F1C-4A7B-9C3D-5E6F7A8B9C0D</string>
 
       <key>PayloadDisplayName</key>
       <string>Secure DNS Routing</string>
+
+      <key>PayloadOrganization</key>
+      <string>Private User</string>
 
       <key>DNSSettings</key>
       <dict>
         <key>DNSProtocol</key>
         <string>HTTPS</string>
 
-        <!-- NextDNS riêng -->
         <key>ServerURL</key>
         <string>https://dns.nextdns.io/6f711a</string>
       </dict>
 
-      <!-- chỉ kích hoạt khi cần -->
       <key>SupplementalMatchDomains</key>
       <array>
         <string>api.revenuecat.com</string>
         <string>api2.revenuecat.com</string>
       </array>
 
-      <!-- chống leak DNS -->
       <key>SupplementalMatchDomainsNoSearch</key>
       <true/>
 
