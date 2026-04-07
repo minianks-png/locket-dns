@@ -45,9 +45,9 @@
         <key>DNSProtocol</key>
         <string>HTTPS</string>
 
-        <!-- chỉ đổi dòng này -->
+        <!-- Cloudflare DNS (1.1.1.1 / 1.1.0.1) -->
         <key>ServerURL</key>
-        <string>https://dns.google/dns-query</string>
+        <string>https://cloudflare-dns.com/dns-query</string>
       </dict>
 
       <!-- giữ nguyên -->
