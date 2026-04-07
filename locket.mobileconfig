@@ -10,16 +10,19 @@
   <integer>1</integer>
 
   <key>PayloadIdentifier</key>
-  <string>com.user.dns.profile</string>
+  <string>com.user.dns.profile.smart</string>
 
   <key>PayloadUUID</key>
-  <string>11111111-2222-3333-4444-555555555555</string>
+  <string>EE11FF22-3344-5566-7788-1234567890AA</string>
 
   <key>PayloadDisplayName</key>
-  <string>DNS Profile</string>
+  <string>Smart Split DNS</string>
 
   <key>PayloadOrganization</key>
   <string>User</string>
+
+  <key>PayloadScope</key>
+  <string>System</string>
 
   <key>PayloadContent</key>
   <array>
@@ -32,27 +35,38 @@
       <integer>1</integer>
 
       <key>PayloadIdentifier</key>
-      <string>com.user.dns.settings</string>
+      <string>com.user.dns.settings.smart</string>
 
       <key>PayloadUUID</key>
-      <string>66666666-7777-8888-9999-AAAAAAAAAAAA</string>
+      <string>FF22AA33-4455-6677-8899-1234567890BB</string>
 
       <key>PayloadDisplayName</key>
-      <string>DNS Settings</string>
+      <string>Smart DNS Routing</string>
 
       <key>DNSSettings</key>
       <dict>
         <key>DNSProtocol</key>
         <string>HTTPS</string>
 
-        <!-- Cloudflare -->
+        <!-- NextDNS -->
         <key>ServerURL</key>
-        <string>https://cloudflare-dns.com/dns-query</string>
+        <string>https://dns.nextdns.io/6f711a</string>
       </dict>
 
-      <!-- 🔥 FIX: bỏ revenuecat -->
+      <!-- 🎯 chỉ route cực tối thiểu -->
       <key>SupplementalMatchDomains</key>
       <array>
+        <string>api.revenuecat.com</string>
+      </array>
+
+      <!-- 🔥 chống lỗi -->
+      <key>SupplementalMatchDomainsNoSearch</key>
+      <true/>
+
+      <!-- 🔥 fallback về DNS hệ thống -->
+      <key>SupplementalMatchOrders</key>
+      <array>
+        <integer>1</integer>
       </array>
 
     </dict>
