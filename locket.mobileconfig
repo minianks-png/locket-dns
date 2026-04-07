@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
 <plist version="1.0">
 <dict>
 
-  <key>PayloadType</key>
-  <string>Configuration</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
 
-  <key>PayloadVersion</key>
-  <integer>1</integer>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
 
-  <key>PayloadIdentifier</key>
-  <string>com.user.dns.profile.smart</string>
+    <key>PayloadIdentifier</key>
+    <string>lvbang.profile.dns.revenuecat.only</string>
 
-  <key>PayloadUUID</key>
-  <string>EE11FF22-3344-5566-7788-1234567890AA</string>
+    <key>PayloadUUID</key>
+    <string>6B1E9B3A-2E6A-4F8F-9E1A-8A1C7F3D2B10</string>
 
-  <key>PayloadDisplayName</key>
-  <string>Smart Split DNS</string>
+    <key>PayloadDisplayName</key>
+    <string>LVBang UwU</string>
 
-  <key>PayloadOrganization</key>
-  <string>User</string>
+    <key>PayloadOrganization</key>
+    <string>lvbang</string>
 
-  <key>PayloadScope</key>
-  <string>System</string>
+    <key>PayloadDescription</key>
+    <string>Config giữ Locket Gold cho Iphone hehe</string>
 
-  <key>PayloadContent</key>
-  <array>
+    <key>PayloadScope</key>
+    <string>System</string>
 
-    <dict>
-      <key>PayloadType</key>
-      <string>com.apple.dnsSettings.managed</string>
+    <key>PayloadContent</key>
+    <array>
 
-      <key>PayloadVersion</key>
-      <integer>1</integer>
+        <dict>
 
-      <key>PayloadIdentifier</key>
-      <string>com.user.dns.settings.smart</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
 
-      <key>PayloadUUID</key>
-      <string>FF22AA33-4455-6677-8899-1234567890BB</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
 
-      <key>PayloadDisplayName</key>
-      <string>Smart DNS Routing</string>
+            <key>PayloadIdentifier</key>
+            <string>lvbang.payload.dns.revenuecat.only</string>
 
-      <key>DNSSettings</key>
-      <dict>
-        <key>DNSProtocol</key>
-        <string>HTTPS</string>
+            <key>PayloadUUID</key>
+            <string>0F2C9D44-8B7A-4C3F-9A77-1B8D2A6E5C11</string>
 
-        <!-- NextDNS -->
-        <key>ServerURL</key>
-        <string>https://dns.nextdns.io/6f711a</string>
-      </dict>
+            <key>PayloadDisplayName</key>
+            <string>Locket Gold by LVBang hehe</string>
 
-      <!-- 🎯 chỉ route cực tối thiểu -->
-      <key>SupplementalMatchDomains</key>
-      <array>
-        <string>api.revenuecat.com</string>
-      </array>
+            <key>PayloadOrganization</key>
+            <string>lvbang</string>
 
-      <!-- 🔥 chống lỗi -->
-      <key>SupplementalMatchDomainsNoSearch</key>
-      <true/>
+            <key>DNSSettings</key>
+            <dict>
 
-      <!-- 🔥 fallback về DNS hệ thống -->
-      <key>SupplementalMatchOrders</key>
-      <array>
-        <integer>1</integer>
-      </array>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
 
-    </dict>
+                <key>ServerURL</key>
+                <string>https://dns.nextdns.io/e2339f</string>
 
-  </array>
+            </dict>
+
+            <key>SupplementalMatchDomains</key>
+            <array>
+
+                <string>.revenuecat.com</string>
+
+            </array>
+
+        </dict>
+
+    </array>
 
 </dict>
 </plist>
