@@ -10,16 +10,16 @@
   <integer>1</integer>
 
   <key>PayloadIdentifier</key>
-  <string>com.private.dns.e2339f</string>
+  <string>vn.stable.dns</string>
 
   <key>PayloadUUID</key>
-  <string>5A1B2C3D-4E5F-6789-ABCD-1234567890EF</string>
+  <string>8A7B6C5D-4E3F-2A1B-9C8D-112233445566</string>
 
   <key>PayloadDisplayName</key>
-  <string>Private DNS</string>
+  <string>VN Stable DNS</string>
 
   <key>PayloadOrganization</key>
-  <string>Personal</string>
+  <string>Private</string>
 
   <key>PayloadScope</key>
   <string>System</string>
@@ -35,35 +35,31 @@
       <integer>1</integer>
 
       <key>PayloadIdentifier</key>
-      <string>com.private.dns.settings.e2339f</string>
+      <string>vn.stable.routing</string>
 
       <key>PayloadUUID</key>
-      <string>9F8E7D6C-5B4A-3210-ABCD-0987654321EF</string>
+      <string>1234ABCD-5678-EF90-1234-56789ABCDEF0</string>
 
       <key>PayloadDisplayName</key>
-      <string>Secure DNS Routing</string>
-
-      <key>PayloadOrganization</key>
-      <string>Personal</string>
+      <string>Smart DNS VN</string>
 
       <key>DNSSettings</key>
       <dict>
         <key>DNSProtocol</key>
         <string>HTTPS</string>
 
-        <!-- ID riêng của bạn -->
+        <!-- dùng Quad9 ổn định hơn tại VN -->
         <key>ServerURL</key>
-        <string>https://dns.nextdns.io/e2339f</string>
+        <string>https://dns.quad9.net/dns-query</string>
       </dict>
 
-      <!-- chỉ kích hoạt khi cần -->
+      <!-- chỉ áp dụng khi cần -->
       <key>SupplementalMatchDomains</key>
       <array>
         <string>api.revenuecat.com</string>
         <string>api2.revenuecat.com</string>
       </array>
 
-      <!-- chống leak -->
       <key>SupplementalMatchDomainsNoSearch</key>
       <true/>
 
