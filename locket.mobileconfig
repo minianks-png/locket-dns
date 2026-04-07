@@ -10,16 +10,16 @@
   <integer>1</integer>
 
   <key>PayloadIdentifier</key>
-  <string>com.private.dns.cloudflare</string>
+  <string>com.private.dns.e2339f</string>
 
   <key>PayloadUUID</key>
-  <string>1A2B3C4D-5E6F-7890-ABCD-1234567890AB</string>
+  <string>5A1B2C3D-4E5F-6789-ABCD-1234567890EF</string>
 
   <key>PayloadDisplayName</key>
-  <string>Cloudflare DNS</string>
+  <string>Private DNS</string>
 
   <key>PayloadOrganization</key>
-  <string>Private</string>
+  <string>Personal</string>
 
   <key>PayloadScope</key>
   <string>System</string>
@@ -35,25 +35,25 @@
       <integer>1</integer>
 
       <key>PayloadIdentifier</key>
-      <string>com.private.dns.cloudflare.settings</string>
+      <string>com.private.dns.settings.e2339f</string>
 
       <key>PayloadUUID</key>
-      <string>ABCDEF12-3456-7890-ABCD-ABCDEF123456</string>
+      <string>9F8E7D6C-5B4A-3210-ABCD-0987654321EF</string>
 
       <key>PayloadDisplayName</key>
       <string>Secure DNS Routing</string>
 
       <key>PayloadOrganization</key>
-      <string>Private</string>
+      <string>Personal</string>
 
       <key>DNSSettings</key>
       <dict>
         <key>DNSProtocol</key>
         <string>HTTPS</string>
 
-        <!-- Cloudflare DoH -->
+        <!-- ID riêng của bạn -->
         <key>ServerURL</key>
-        <string>https://cloudflare-dns.com/dns-query</string>
+        <string>https://dns.nextdns.io/e2339f</string>
       </dict>
 
       <!-- chỉ kích hoạt khi cần -->
