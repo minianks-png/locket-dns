@@ -10,16 +10,19 @@
   <integer>1</integer>
 
   <key>PayloadIdentifier</key>
-  <string>com.user.dns.profile</string>
+  <string>com.private.dns.cloudflare</string>
 
   <key>PayloadUUID</key>
-  <string>11111111-2222-3333-4444-555555555555</string>
+  <string>1A2B3C4D-5E6F-7890-ABCD-1234567890AB</string>
 
   <key>PayloadDisplayName</key>
-  <string>DNS Profile</string>
+  <string>Cloudflare DNS</string>
 
   <key>PayloadOrganization</key>
-  <string>User</string>
+  <string>Private</string>
+
+  <key>PayloadScope</key>
+  <string>System</string>
 
   <key>PayloadContent</key>
   <array>
@@ -32,27 +35,37 @@
       <integer>1</integer>
 
       <key>PayloadIdentifier</key>
-      <string>com.user.dns.settings</string>
+      <string>com.private.dns.cloudflare.settings</string>
 
       <key>PayloadUUID</key>
-      <string>66666666-7777-8888-9999-AAAAAAAAAAAA</string>
+      <string>ABCDEF12-3456-7890-ABCD-ABCDEF123456</string>
 
       <key>PayloadDisplayName</key>
-      <string>DNS Settings</string>
+      <string>Secure DNS Routing</string>
+
+      <key>PayloadOrganization</key>
+      <string>Private</string>
 
       <key>DNSSettings</key>
       <dict>
         <key>DNSProtocol</key>
         <string>HTTPS</string>
 
+        <!-- Cloudflare DoH -->
         <key>ServerURL</key>
-        <string>https://dns.nextdns.io/6f711a</string>
+        <string>https://cloudflare-dns.com/dns-query</string>
       </dict>
 
+      <!-- chỉ kích hoạt khi cần -->
       <key>SupplementalMatchDomains</key>
       <array>
         <string>api.revenuecat.com</string>
+        <string>api2.revenuecat.com</string>
       </array>
+
+      <!-- chống leak -->
+      <key>SupplementalMatchDomainsNoSearch</key>
+      <true/>
 
     </dict>
 
