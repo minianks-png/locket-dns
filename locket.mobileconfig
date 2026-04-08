@@ -13,9 +13,8 @@
     <key>PayloadIdentifier</key>
     <string>lvbang.profile.dns.revenuecat.only</string>
 
-    <!-- UUID mới hợp lệ -->
     <key>PayloadUUID</key>
-    <string>8F1E9B3A-2E6A-4F8F-9E1A-8A1C7F3D2B10</string>
+    <string>A1B2C3D4-5E6F-47A8-9ABC-1234567890AA</string>
 
     <key>PayloadDisplayName</key>
     <string>LVBang UwU</string>
@@ -43,9 +42,8 @@
             <key>PayloadIdentifier</key>
             <string>lvbang.payload.dns.revenuecat.only</string>
 
-            <!-- UUID khác hoàn toàn -->
             <key>PayloadUUID</key>
-            <string>9E2C9D44-8B7A-4C3F-9A77-1B8D2A6E5C11</string>
+            <string>B1C2D3E4-6F78-49AB-90CD-1234567890BB</string>
 
             <key>PayloadDisplayName</key>
             <string>Locket Gold by LVBang hehe</string>
@@ -62,7 +60,11 @@
                 <key>ServerURL</key>
                 <string>https://dns.nextdns.io/e2339f</string>
 
-                <!-- 🔥 FIX DUY NHẤT QUAN TRỌNG -->
+                <!-- 🔥 BẮT BUỘC -->
+                <key>ServerName</key>
+                <string>dns.nextdns.io</string>
+
+                <!-- 🔥 BẮT BUỘC -->
                 <key>ServerAddresses</key>
                 <array>
                     <string>45.90.28.0</string>
