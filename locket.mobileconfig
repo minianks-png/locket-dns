@@ -1,86 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-
+  <dict>
     <key>PayloadType</key>
     <string>Configuration</string>
-
     <key>PayloadVersion</key>
     <integer>1</integer>
-
     <key>PayloadIdentifier</key>
     <string>lvbang.profile.dns.revenuecat.only</string>
-
     <key>PayloadUUID</key>
-    <string>91E9B3A2-2E6A-4F8F-9E1A-8A1C7F3D2B10</string>
-
+    <string>6B1E9B3A-2E6A-4F8F-9E1A-8A1C7F3D2B10</string>
     <key>PayloadDisplayName</key>
     <string>LVBang UwU</string>
-
     <key>PayloadOrganization</key>
     <string>lvbang</string>
-
     <key>PayloadDescription</key>
     <string>Config giữ Locket Gold cho Iphone hehe</string>
-
     <key>PayloadScope</key>
     <string>System</string>
-
     <key>PayloadContent</key>
     <array>
-
+      <dict>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>lvbang.payload.dns.revenuecat.only</string>
+        <key>PayloadUUID</key>
+        <string>0F2C9D44-8B7A-4C3F-9A77-1B8D2A6E5C11</string>
+        <key>PayloadDisplayName</key>
+        <string>Locket Gold by LVBang hehe</string>
+        <key>PayloadOrganization</key>
+        <string>lvbang</string>
+        <key>DNSSettings</key>
         <dict>
-
-            <key>PayloadType</key>
-            <string>com.apple.dnsSettings.managed</string>
-
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-
-            <key>PayloadIdentifier</key>
-            <string>lvbang.payload.dns.revenuecat.only</string>
-
-            <key>PayloadUUID</key>
-            <string>82C9D448-8B7A-4C3F-9A77-1B8D2A6E5C11</string>
-
-            <key>PayloadDisplayName</key>
-            <string>Locket Gold by LVBang hehe</string>
-
-            <key>PayloadOrganization</key>
-            <string>lvbang</string>
-
-            <key>DNSSettings</key>
-            <dict>
-
-                <key>DNSProtocol</key>
-                <string>HTTPS</string>
-
-                <key>ServerURL</key>
-                <string>https://dns.nextdns.io/e2339f</string>
-
-                <key>ServerName</key>
-                <string>dns.nextdns.io</string>
-
-                <key>ServerAddresses</key>
-                <array>
-                    <string>45.90.28.0</string>
-                    <string>45.90.30.0</string>
-                </array>
-
-            </dict>
-
-            <key>SupplementalMatchDomains</key>
-            <array>
-                <string>revenuecat.com</string>
-            </array>
-
-            <key>SupplementalMatchDomainsNoSearch</key>
-            <true/>
-
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerURL</key>
+          <string>https://dns.nextdns.io/e2339f</string>
         </dict>
-
+        <key>SupplementalMatchDomains</key>
+        <array>
+          <string>.revenuecat.com</string>
+        </array>
+      </dict>
     </array>
-
-</dict>
+  </dict>
 </plist>
