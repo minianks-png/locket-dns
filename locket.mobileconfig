@@ -60,11 +60,9 @@
                 <key>ServerURL</key>
                 <string>https://dns.nextdns.io/e2339f</string>
 
-                <!-- 🔥 BẮT BUỘC -->
                 <key>ServerName</key>
                 <string>dns.nextdns.io</string>
 
-                <!-- 🔥 BẮT BUỘC -->
                 <key>ServerAddresses</key>
                 <array>
                     <string>45.90.28.0</string>
