@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-
 <plist version="1.0">
 <dict>
 
@@ -14,7 +13,7 @@
     <string>lvbang.profile.dns.revenuecat.only</string>
 
     <key>PayloadUUID</key>
-    <string>6B1E9B3A-2E6A-4F8F-9E1A-8A1C7F3D2B10</string>
+    <string>91E9B3A2-2E6A-4F8F-9E1A-8A1C7F3D2B10</string>
 
     <key>PayloadDisplayName</key>
     <string>LVBang UwU</string>
@@ -43,7 +42,7 @@
             <string>lvbang.payload.dns.revenuecat.only</string>
 
             <key>PayloadUUID</key>
-            <string>0F2C9D44-8B7A-4C3F-9A77-1B8D2A6E5C11</string>
+            <string>82C9D448-8B7A-4C3F-9A77-1B8D2A6E5C11</string>
 
             <key>PayloadDisplayName</key>
             <string>Locket Gold by LVBang hehe</string>
@@ -73,7 +72,7 @@
 
             <key>SupplementalMatchDomains</key>
             <array>
-                <string>.revenuecat.com</string>
+                <string>revenuecat.com</string>
             </array>
 
             <key>SupplementalMatchDomainsNoSearch</key>
