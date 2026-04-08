@@ -1,78 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
 <plist version="1.0">
 <dict>
+
     <key>PayloadType</key>
     <string>Configuration</string>
-    
+
     <key>PayloadVersion</key>
     <integer>1</integer>
-    
+
     <key>PayloadIdentifier</key>
     <string>lvbang.profile.dns.revenuecat.only</string>
-    
+
+    <!-- chỉ đổi UUID để tránh lỗi cache -->
     <key>PayloadUUID</key>
-    <string>A1B2C3D4-5E6F-47A8-9ABC-1234567890AA</string>
-    
+    <string>F1E9B3A2-2E6A-4F8F-9E1A-8A1C7F3D2B10</string>
+
     <key>PayloadDisplayName</key>
     <string>LVBang UwU</string>
-    
+
     <key>PayloadOrganization</key>
     <string>lvbang</string>
-    
+
     <key>PayloadDescription</key>
-    <string>Optimized Battery &amp; Network</string>
-    
+    <string>Optimized Battery & Network</string>
+
+    <!-- giữ system -->
     <key>PayloadScope</key>
     <string>System</string>
-    
+
     <key>PayloadContent</key>
     <array>
+
         <dict>
+
             <key>PayloadType</key>
             <string>com.apple.dnsSettings.managed</string>
-            
+
             <key>PayloadVersion</key>
             <integer>1</integer>
-            
+
             <key>PayloadIdentifier</key>
             <string>lvbang.payload.dns.revenuecat.only</string>
-            
+
+            <!-- UUID mới -->
             <key>PayloadUUID</key>
-            <string>B1C2D3E4-6F78-49AB-90CD-1234567890BB</string>
-            
+            <string>E2C9D448-8B7A-4C3F-9A77-1B8D2A6E5C11</string>
+
             <key>PayloadDisplayName</key>
             <string>Locket Gold by LVBang hehe</string>
-            
+
             <key>PayloadOrganization</key>
             <string>lvbang</string>
-            
+
             <key>DNSSettings</key>
             <dict>
+
                 <key>DNSProtocol</key>
                 <string>HTTPS</string>
-                
+
+                <!-- GIỮ NGUYÊN DNS -->
                 <key>ServerURL</key>
                 <string>https://dns.nextdns.io/e2339f</string>
-                
-                <key>ServerName</key>
-                <string>dns.nextdns.io</string>
-                
-                <key>ServerAddresses</key>
-                <array>
-                    <string>45.90.28.0</string>
-                    <string>45.90.30.0</string>
-                </array>
+
             </dict>
-            
+
+            <!-- GIỮ NGUYÊN -->
             <key>SupplementalMatchDomains</key>
             <array>
                 <string>.revenuecat.com</string>
             </array>
-            
+
+            <!-- tối ưu pin + giảm request dư -->
             <key>SupplementalMatchDomainsNoSearch</key>
             <true/>
+
         </dict>
+
     </array>
+
 </dict>
 </plist>
