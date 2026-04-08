@@ -38,7 +38,7 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://dns.nextdns.io/e2339f</string>
+          <string>https://dns.nextdns.io/6f711a</string>
         </dict>
         <key>SupplementalMatchDomains</key>
         <array>
