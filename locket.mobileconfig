@@ -13,9 +13,8 @@
     <key>PayloadIdentifier</key>
     <string>lvbang.profile.dns.revenuecat.only</string>
 
-    <!-- chỉ đổi UUID để tránh lỗi cache -->
     <key>PayloadUUID</key>
-    <string>F1E9B3A2-2E6A-4F8F-9E1A-8A1C7F3D2B10</string>
+    <string>6B1E9B3A-2E6A-4F8F-9E1A-8A1C7F3D2B10</string>
 
     <key>PayloadDisplayName</key>
     <string>LVBang UwU</string>
@@ -24,9 +23,8 @@
     <string>lvbang</string>
 
     <key>PayloadDescription</key>
-    <string>Optimized Battery & Network</string>
+    <string>Config giữ Locket Gold cho Iphone hehe</string>
 
-    <!-- giữ system -->
     <key>PayloadScope</key>
     <string>System</string>
 
@@ -44,9 +42,8 @@
             <key>PayloadIdentifier</key>
             <string>lvbang.payload.dns.revenuecat.only</string>
 
-            <!-- UUID mới -->
             <key>PayloadUUID</key>
-            <string>E2C9D448-8B7A-4C3F-9A77-1B8D2A6E5C11</string>
+            <string>0F2C9D44-8B7A-4C3F-9A77-1B8D2A6E5C11</string>
 
             <key>PayloadDisplayName</key>
             <string>Locket Gold by LVBang hehe</string>
@@ -60,21 +57,17 @@
                 <key>DNSProtocol</key>
                 <string>HTTPS</string>
 
-                <!-- GIỮ NGUYÊN DNS -->
                 <key>ServerURL</key>
                 <string>https://dns.nextdns.io/e2339f</string>
 
             </dict>
 
-            <!-- GIỮ NGUYÊN -->
             <key>SupplementalMatchDomains</key>
             <array>
-                <string>.revenuecat.com</string>
-            </array>
 
-            <!-- tối ưu pin + giảm request dư -->
-            <key>SupplementalMatchDomainsNoSearch</key>
-            <true/>
+                <string>.revenuecat.com</string>
+
+            </array>
 
         </dict>
 
